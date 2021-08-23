@@ -1,6 +1,6 @@
 import instaloader as insta
 
-username = "marco_cerby"
+username = input("Username: ")
 server = insta.Instaloader()
 profile = insta.Profile.from_username(server.context, username)
 
